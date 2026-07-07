@@ -22,3 +22,17 @@ var no1 = "hi" , no2 = "by" , no3 = "u";
 console.log(no1)
 console.log(no2)
 console.log(no1,no2,no3)
+
+var maths = (2*4*(6+4)*(5+1))
+console.log(maths)
+
+var obtMarks = 290;
+var totalMarks = 400;
+var perc = (obtMarks/totalMarks*100)
+console.log(perc)
+
+var name = ("ahsan"+99)
+console.log(name)
+
+var name = (99+1+"ahsan")
+console.log(name)
