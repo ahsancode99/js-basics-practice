@@ -67,3 +67,14 @@ else{
     var select = prompt("1. only add \n2. only remove \n add and remove");
 
 }
+// slice///
+
+var data = [21,312,412,521,62,78,86,99,100,210,300,400];
+console.log(data);
+
+var data2 = data.slice(2,4);
+console.log(data2);
+
+
+var data3 = data.slice(-3,-1);
+console.log(data3);
