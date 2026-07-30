@@ -119,22 +119,29 @@
 // //task 3   ////
 
 
+var arrr = [21,23,42,92,23,7,9,7,6,7,23,45,21,9,3,22,5,2];
 var inp = +prompt("enter a number");
-var arrr = [21,23,42,92,23,7,9,7];
 var count = 0;
 var index_position = [];
+// var dup = [];
 
 for(var i = 0; i < arrr.length; i++){
         
     if(arrr[i] == inp){
         index_position.push(i);
-    // for(var j = 0; j < arrr.length; j++){
-    //     if(arrr[j]== arrr[i]){
-    //     }
-    //     }
+        count = index_position.length
     }
+   
+
+
 
 }
-// console.log("Count ="+ count);
-console.log("Index Positions = "+ index_position);
+console.log("user input = "+inp);
+console.log("Counted "+ count +" times");
+console.log("Found at Index = "+ index_position);
+// console.log(dup);
+
+
+
+
 
