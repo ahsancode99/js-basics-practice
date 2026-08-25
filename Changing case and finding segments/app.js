@@ -29,13 +29,25 @@ var text = "Lorem Ipsum is a scrambled, nonsensical version of a 1st-century BC 
 // }
 // console.log(indxPosition);
 
-console.log(text.indexOf("the"))
-console.log(text.lastIndexOf("the"))
+// console.log(text.indexOf("the"))
+// console.log(text.lastIndexOf("the"))
 
-if(text.indexOf("scrambled") !== -1){
-    console.log(true)
-}
-else{
+// if(text.indexOf("scrambled") !== -1){
+//     console.log(true)
+// }
+// else{
 
-    console.log(false)
-}
+//     console.log(false)
+// }
+
+///charAt use to see letter on index position
+// console.log(text.charAt(0))
+// console.log(text.charAt(text.length -1))
+
+console.log(text);
+
+text = text.replace('Lorem Ipsum is', 'the dummy text');
+console.log(text);
+
+
+
